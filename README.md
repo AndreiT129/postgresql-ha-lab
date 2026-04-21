@@ -79,3 +79,16 @@ The project was validated on a fresh Oracle Linux 9 VM by confirming:
 ## Notes
 
 This is a lab environment built for learning and portfolio purposes, not a production deployment.
+
+---
+
+## Screenshots
+
+### Prometheus Targets
+![Prometheus Targets](docs/screenshots/prometheus-targets.png)
+
+### Grafana Node Exporter Dashboard
+![Grafana Node Exporter](docs/screenshots/grafana-node-dashboard.png)
+
+### Grafana PostgreSQL Dashboard
+![Grafana PostgreSQL](docs/screenshots/grafana-postgres-dashboard.png)
