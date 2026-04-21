@@ -29,3 +29,34 @@ postgresql-ha-lab/
     ├── architecture.md
     ├── verification.md
     └── screenshots/
+
+**## Automation sripts**
+
+```md
+- `01_setup_primary.sh` — installs and configures the PostgreSQL primary
+- `02_setup_replica.sh` — creates the replica using `pg_basebackup`
+- `03_setup_monitoring.sh` — installs Prometheus, Grafana, and exporters
+
+**## Validation**
+
+The project was validated on a fresh Oracle Linux 9 VM by confirming:
+
+- primary and replica setup completed successfully
+- replication worked correctly
+- exporters returned healthy metrics
+- Prometheus targets were UP
+- Grafana dashboards displayed PostgreSQL and system metrics
+
+**## Key Skills Demonstrated**
+
+- PostgreSQL installation and configuration
+- Streaming replication
+- Monitoring with Prometheus and Grafana
+- Linux service management with systemd
+- Network and firewall configuration
+- Bash automation
+- End-to-end validation on a clean VM
+
+**## Notes**
+
+This is a lab environment built for learning and portfolio purposes, not a production deployment.
