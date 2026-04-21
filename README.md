@@ -29,6 +29,7 @@ postgresql-ha-lab/
     ├── architecture.md
     ├── verification.md
     └── screenshots/
+```text
 
 **## Automation sripts**
 
